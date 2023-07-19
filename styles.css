@@ -1,1 +1,110 @@
 /* Write your CSS here! */
+header {
+	position: relative;
+	 /* will control width at next div level */
+}
+#header1 {
+    border-radius: 5px;
+    background-color:rgb(131, 99, 235);
+	  /* set to match main and footer */
+}
+#mainHeading{
+  color: red;
+}
+body{
+  margin: 8px;
+  padding: 7px;
+  border: 1px solid black;
+}
+#testP{
+  color: green;
+}
+.funParagraph{
+  color: green;
+}
+div {
+	position: relative;
+	margin: 0px; 
+	box-sizing: border-box; 
+}
+footer {
+	background-color: grey;
+  border-radius: 15px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	padding: 10px 20px;  /* set to match main */
+	box-sizing: border-box; 
+}
+h1{
+  font-family: "Sofia", sans-serif;
+}
+h2 {
+	font-family: 'Satisfy', cursive;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #0fcbf1;
+	margin: 5px;  /* override default */
+}
+a:hover {
+	color: #F1C40F!important;  /* had to coerce it */
+}
+.image{
+    border-radius: 15px;
+    border: 5px solid #555;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  .dropbtn {
+    border-radius: 10px;
+    background-color: rosybrown;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: turquoise;}
