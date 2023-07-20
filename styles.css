@@ -46,6 +46,9 @@ h2 {
 	color: #0fcbf1;
 	margin: 5px;  /* override default */
 }
+h3{
+  color:rgb(131, 99, 235);
+}
 a:hover {
 	color: #F1C40F!important;  /* had to coerce it */
 }
@@ -156,4 +159,14 @@ nav ul {
 .fa-pinterest {
   background: #cb2027;
   color: white;
+}
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 1px;
+}
+
+div.scroll-container img {
+  padding: 5px;
 }
